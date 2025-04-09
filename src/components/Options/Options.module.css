@@ -1,0 +1,25 @@
+.optionList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+
+    margin-bottom: 16px;
+}
+
+.optBtn {
+    border-radius: 5px;
+    background-color: rgb(50, 205, 99);
+
+    &:hover {
+        background-color: rgb(195, 224, 64);
+    }
+}
+
+.resetBtn {
+    background-color: tomato;
+
+    &:hover {
+        background-color: red;
+    }
+}
